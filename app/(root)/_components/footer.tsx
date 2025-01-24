@@ -13,7 +13,7 @@ const AfunaFooter = () => {
                 <p>
                 LE CMA est un Centre Médical qui offre des soins de santé de haute qualité avec 
                  compassion et expertise. Notre mission 
-                 est d'améliorer le bien-être de chaque patient grâce à une approche personnalisée. Merci de nous choisir !
+                 est d&apos;améliorer le bien-être de chaque patient grâce à une approche personnalisée. Merci de nous choisir !
                 </p>
                 <p>
                     Suivez CMA sous les différentes plateformes pour être informé des dernières actualités.
