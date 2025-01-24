@@ -13,7 +13,7 @@ const HeroText = () => {
                             <motion.h1 initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className="text-6xl font-bold">
+                        className="text-4xl text-center md:text-6xl font-bold text-white">
                                 Bienvenue au <span className="uppercase text-red-500">Centre</span>{" "}
                                 <span className="text-green-500 uppercase">Medical</span>{" "}
                                 <span className="uppercase text-blue-400">Afuna</span>
@@ -23,7 +23,7 @@ const HeroText = () => {
                              whileInView={{ x: 0, opacity: 1 }}
                              transition={{ duration: 1, ease: "easeOut" }}
                             className="mt-8">
-                                <span className="text-2xl italic">Votre Santé, Notre Priorité</span>
+                                <span className="text-2xl italic text-white">Votre Santé, Notre Priorité</span>
                             </motion.div>
                         </motion.div>
                         {/* Positioning the Explorer div at the bottom */}
@@ -32,8 +32,8 @@ const HeroText = () => {
                          whileInView={{ y: 0, opacity: 1 }}
                          transition={{ duration: 1, ease: "easeOut" }}
                         className="flex flex-col items-center pb-20">
-                            <span className="text-2xl font-semibold">Explorer Nos Services</span>
-                            <ArrowBigDown size={50} className="fill-yellow-500 text-yellow-500 animate-bounce mt-2" />
+                            <span className="text-2xl font-semibold text-white">Explorer Nos Services</span>
+                            <ArrowBigDown size={50} className="fill-green-500 text-green-500 animate-bounce mt-2" />
                         </motion.div>
                     </div>
         </>

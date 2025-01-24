@@ -38,9 +38,9 @@ const NavigationBar = () => {
                     </div>
                         <div className="md:flex hidden gap-8 ">
                             <Link href={"https://www.facebook.com/share/15sqW3dqMj/"}>
-                                <FacebookIcon className="fill-white"/>
+                                <FacebookIcon className="fill-white text-white"/>
                             </Link>
-                            <Link href={""}>
+                            <Link href={""} className="text-white">
                                 <InstagramIcon/>
                             </Link>
                         </div>
@@ -51,14 +51,16 @@ const NavigationBar = () => {
                     className={`md:hidden text-center transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-[200px] opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
                 >
                     <Link href="/" className="block py-2 text-white hover:text-green-500">Home</Link>
-                    <Link href="/about" className="block py-2 text-white hover:text-green-500">About Us</Link>
-                    <Link href="/courses" className="block py-2 text-white hover:text-green-500">Courses</Link>
-                    <Link 
-                        href="/splash" 
-                        className="block py-2 px-4 bg-orange-500 text-white rounded-full hover:bg-orange-600 mx-auto text-center w-1/3" // Set width to 75% of the parent
-                    >
-                        Get Started
-                    </Link>
+                    <Link href="/" className="block py-2 text-white hover:text-green-500">A propos</Link>
+                    <Link href="/" className="block py-2 text-white hover:text-green-500">Service</Link>
+                    <div className="md:hidden flex items-center justify-center mt-4 gap-4 pb-4 ">
+                            <Link href={"https://www.facebook.com/share/15sqW3dqMj/"}>
+                                <FacebookIcon className="fill-white text-white"/>
+                            </Link>
+                            <Link href={""}>
+                                <InstagramIcon className="text-white"/>
+                            </Link>
+                        </div>
                 </div>
             </div>
         </header>

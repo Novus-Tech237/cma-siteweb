@@ -64,7 +64,7 @@ const AfunaStatistics: React.FC = () => {
           </div>
           <div>
             <span className="font-bold text-6xl text-green-600">{creativeEvent}</span>
-            <p className="mt-4 mb-[4rem] text-slate-600">Campagnes Médicales</p>
+            <p className="mt-4 pb-[4rem] text-slate-600">Campagnes Médicales</p>
           </div>
         </div>
       </div>

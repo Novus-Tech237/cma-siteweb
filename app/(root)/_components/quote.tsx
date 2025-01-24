@@ -13,7 +13,7 @@ const AfunaQuote = () => {
         router.push("/about")
     }
     return ( 
-        <div className="h-full md:px-2  overflow-hidden text-black">
+        <div className="h-full overflow-hidden text-black">
         <div className="md:px-32 md:py-10 px-10 py-5">
                 <span className="subheading">Citation</span>
             
@@ -21,7 +21,6 @@ const AfunaQuote = () => {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
-                className="mt-10"
             >
                 <div className="container flex md:flex-row flex-col md:justify-between items-center p-8">
                 <div className="relative mb-4"> {/* Added relative positioning */}

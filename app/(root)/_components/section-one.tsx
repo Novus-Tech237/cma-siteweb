@@ -53,10 +53,9 @@ const WelcomePage = () => {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    viewport={{ once: true }}
                     className="mt-10"
                 >
-                    <div className="relative mb-[2rem] md:hidden block"> {/* Added relative positioning */}
+                    <div className="relative pr-6 p-6 mb-[2rem] md:hidden block"> {/* Added relative positioning */}
                         <Image
                             src={"/consultation.jpg"}
                             width={500}
@@ -65,9 +64,9 @@ const WelcomePage = () => {
                             className="rounded-lg transform scale-x-[-1]"
                         />
                         {/* New Image at the bottom corner */}
-                        <div className="absolute -bottom-12 -right-10  p-2 rounded-lg  flex items-center justify-center"> {/* Card style */}
+                        <div className="absolute -bottom-12 -right-10 bg-white p-2 rounded-lg  flex items-center justify-center"> {/* Card style */}
                             <Image
-                                src={"/images/imago-2.jpg"} // Replace with the new image path
+                                src={"/preg.jpg"} // Replace with the new image path
                                 width={170} // Adjust width as necessary
                                 height={150} // Adjust height as necessary
                                 alt="Corner Image"
@@ -122,7 +121,7 @@ const WelcomePage = () => {
                             {/* New Image at the bottom corner */}
                             <div className="absolute -bottom-12 -right-10  p-2 rounded-lg bg-white flex items-center justify-center"> {/* Card style */}
                                 <Image
-                                    src={"/consultation.jpg"} // Replace with the new image path
+                                    src={"/preg.jpg"} // Replace with the new image path
                                     width={170} // Adjust width as necessary
                                     height={150} // Adjust height as necessary
                                     alt="Corner Image"
@@ -131,10 +130,10 @@ const WelcomePage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="xs:container md:flex md:flex-row flex-col md:justify-around items-center p-8 ">
+                    <div className="xs:container md:flex md:flex-row flex-col md:justify-around items-center md:p-8 ">
                     
                     <div className="flex flex-col gap-[6rem]">
-                    <div className="relative hidden md:block mr-12"> {/* Added relative positioning */}
+                    <div className="relative md:block mr-12"> {/* Added relative positioning */}
                         <Image
                             src={"/new-born.jpg"}
                             width={500}
@@ -153,7 +152,7 @@ const WelcomePage = () => {
                             />
                         </div>
                     </div>
-                    <div className="relative hidden md:block mr-12"> {/* Added relative positioning */}
+                    <div className="relative  md:block mr-12 mb-[8rem] ml-8"> {/* Added relative positioning */}
                         <Image
                             src={"/pharmacy.jpg"}
                             width={500}
